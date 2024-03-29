@@ -5,7 +5,6 @@ const app = express();
 const PORT = 5000;
 console.log(process.env)
 const URL = process.env.Database
-//"mongodb+srv://deepak:deepak@cluster0.3t4az4g.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" // Replace with your MongoDB connection string
 
 app.use(express.json());
 
